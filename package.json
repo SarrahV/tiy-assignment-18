@@ -1,0 +1,14 @@
+{
+  "name": "tiy-assignment-18",
+  "version": "1.0.0",
+  "description": "testing extending in backbone",
+  "main": "test.extending.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "extend"
+  ],
+  "author": "Sarrah Vesselov",
+  "license": "ISC"
+}

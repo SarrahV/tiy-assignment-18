@@ -10,5 +10,18 @@
     "extend"
   ],
   "author": "Sarrah Vesselov",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SarrahV/tiy-assignment-18.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SarrahV/tiy-assignment-18/issues"
+  },
+  "homepage": "https://github.com/SarrahV/tiy-assignment-18",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "main-bower-files": "^2.5.0",
+    "underscore": "^1.8.2"
+  }
 }

@@ -54,7 +54,7 @@ describe("Extending Objects With _.extend", function() {
   it("can be used for creating defaults", function() {
 
     var implicit = params({});
-    var explicit = params({page: 2});
+    var explicit = params({page: 2}); //need a page every time - params - needs to be function
 
     expect(implicit.page).to.eq(1);
     expect(explicit.page).to.eq(2);

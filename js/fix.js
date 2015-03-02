@@ -51,6 +51,23 @@ Train.prototype = Object.create(LandVehicle.prototype);
 
 
 
+var extendee = {names: "confusing", brain: "hurts"};
+
+var extended = _.extend(extendee);
+
+
+
+function params(stuff) {
+  var defaults = {
+    page: 1
+  }
+
+  var options = _.extend({}, defaults, stuff);
+
+  return options;
+};
+
+
 
 
 

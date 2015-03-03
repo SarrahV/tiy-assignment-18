@@ -37,15 +37,6 @@ describe("Extending Constructors", function() {
   });
 });
 
-describe("Travel", function() {
-
-  it("returns a message", function() {
-    var boat  = new Boat();
-    expect(boat.travel).to.equal("watch for icebergs!");
-  });
-});
-
-
 
 describe("Extending Objects With _.extend", function() {
 

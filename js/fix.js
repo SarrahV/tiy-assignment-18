@@ -4,30 +4,18 @@ function Vehicle() {
 
 function Aircraft() {
   Vehicle.call(this);
-  this.hasWings = true;
-  this.Travel = function() {
-    return "Bon Voyage";
-  };
 };
 
 function SeaVessel() {
   Vehicle.call(this);
-  this.hasRudder = true;
-  this.Travel = function() {
-    return "watch for icebergs!"
-  };
 };
 
 function LandVehicle() {
   Vehicle.call(this);
-  this.hasWheels = true;
 };
 
 function Boat() {
   SeaVessel.call(this);
-  this.Sail = function() {
-    return "smooth seas"
-  };
 };
 
 function Car() {

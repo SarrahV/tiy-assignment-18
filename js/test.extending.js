@@ -34,10 +34,18 @@ describe("Extending Constructors", function() {
     expect(car).to.not.be.instanceof(Aircraft);
     expect(train).to.be.instanceof(LandVehicle);
     expect(train).to.be.instanceof(Vehicle);
-
   });
-
 });
+
+describe("Travel", function() {
+
+  it("returns a message", function() {
+    var boat  = new Boat();
+    expect(boat.travel).to.equal("watch for icebergs!");
+  });
+});
+
+
 
 describe("Extending Objects With _.extend", function() {
 
@@ -62,3 +70,4 @@ describe("Extending Objects With _.extend", function() {
   });
 
 });
+
